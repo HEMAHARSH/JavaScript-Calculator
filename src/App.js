@@ -164,10 +164,8 @@ class App extends React.Component {
         operators: this.handleOperators,
         decimal: this.handleDecimal,
         evaluate: this.handleEvaluate,
-      }
-       
-      )
-      );
+      })
+    );
   }
 }
 
@@ -329,6 +327,5 @@ class Formula extends React.Component {
     );
   }
 }
-
 
 export default App;
